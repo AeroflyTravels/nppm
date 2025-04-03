@@ -10,6 +10,7 @@ export function VisaServices() {
     { name: 'Canada', flag: '🇨🇦' },
     { name: 'Australia', flag: '🇦🇺' },
     { name: 'Dubai', flag: '🇦🇪' },
+    { name: 'India', flag: '🇮🇳' },
   ];
 
   return (

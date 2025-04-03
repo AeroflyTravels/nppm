@@ -1,6 +1,5 @@
 import React from "react";
 import Heroo from "../assets/images/home.jpg"; // Adjust the path as necessary
-import { TourPackages } from "../pages/TourPackages";
 import { useNavigate } from "react-router-dom";
 
 export function Hero() {
