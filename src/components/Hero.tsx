@@ -1,5 +1,7 @@
 import React from "react";
 import Heroo from "../assets/images/home.jpg"; // Adjust the path as necessary
+import { TourPackages } from "../pages/TourPackages";
+import { useNavigate } from "react-router-dom";
 
 export function Hero() {
   return (
@@ -22,12 +24,15 @@ export function Hero() {
           Your journey begins here. Book flights, apply for visas, and explore our curated tour packages.
         </p>
         <div className="mt-6">
-          <a
-            href="/packages"
+            <button
+            onClick={() => {
+                const navigate = useNavigate();
+                navigate("/tour-packages");
+            }}
             className="inline-block bg-[#2a9df4] text-white px-6 sm:px-8 py-3 rounded-md hover:bg-[#1e87d6] transition-colors text-lg sm:text-xl"
-          >
+            >
             Book Now
-          </a>
+            </button>
         </div>
       </div>
     </div>
