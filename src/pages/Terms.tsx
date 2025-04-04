@@ -1,16 +1,23 @@
 import React from 'react';
 import { FileText, Shield, AlertCircle, HelpCircle } from 'lucide-react';
+import tour from '../assets/images/tour.jpg';
 
 export function Terms() {
   return (
     <div className="relative w-full min-h-screen">
       {/* Hero Section */}
-      <div className="bg-[#2a9df4] text-white py-12 sm:py-16">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h1 className="text-3xl sm:text-4xl font-bold mb-4">Terms & Conditions</h1>
-          <p className="text-lg sm:text-xl max-w-2xl mx-auto">
+      <div
+        className="relative h-[600px] bg-cover bg-center"
+        style={{ backgroundImage: `url(${tour})` }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="relative min-h-[600px] w-full flex items-center justify-center">
+          <div className="text-center">
+            <h1 className="text-4xl font-bold text-white mb-4">Terms & Conditions </h1>
+            <p className="text-xl text-white">
             Please read these terms carefully before using our services.
-          </p>
+            </p>
+          </div>
         </div>
       </div>
 

@@ -40,10 +40,12 @@ const Gallery = () => {
         style={{ backgroundImage: `url(${galleryBg})` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        <div className="relative min-h-[300px] md:min-h-[500px] flex items-center justify-center text-center px-4">
-          <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-3 capitalize">Our Gallery</h1>
-            <p className="text-lg md:text-xl text-white">Discover the beauty of our moments</p>
+        <div className="relative min-h-[600px] w-full flex items-center justify-center">
+         <div className="text-center">
+            <h1 className="text-4xl font-bold text-white mb-3 capitalize">Our Gallery</h1>
+            <p className="text-lg md:text-xl text-white">
+              Discover the beauty of our moments
+            </p>
           </div>
         </div>
       </div>

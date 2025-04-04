@@ -55,6 +55,7 @@ export function Contact() {
         className="relative h-[300px] md:h-[500px] bg-cover bg-center"
         style={{ backgroundImage: `url(${contact})` }}
       >
+        
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative flex items-center justify-center text-center px-4 min-h-[300px] md:min-h-[500px]">
           <div>
