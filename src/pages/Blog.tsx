@@ -23,6 +23,15 @@ export function Blog() {
       date: "March 12, 2025",
       category: "Visa Guide",
     },
+    {
+      id: 3,
+      title: "Ultimate Guide to Travel Insurance for 2025",
+      excerpt: "🛡️ Ultimate Guide to Travel Insurance for 2025",
+      image: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2020&q=80",
+      author: "Michael Chen",
+      date: "March 12, 2025",
+      category: "Travel Tips",
+    },
   ];
 
   return (

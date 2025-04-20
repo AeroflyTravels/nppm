@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import ReactMarkdown from 'react-markdown';
 
 // Define TypeScript types
 interface BlogPost {
@@ -56,9 +57,11 @@ const BlogPost = () => {
 
       <hr className="border-gray-300 mb-6" />
 
-      <p className="text-lg sm:text-xl text-gray-700 leading-relaxed text-justify">
-        {post.content}
-      </p>
+      <div className="text-lg sm:text-xl text-gray-700 leading-relaxed text-justify">
+        <ReactMarkdown>
+          {post.content}
+        </ReactMarkdown>
+      </div>
     </div>
   );
 };
