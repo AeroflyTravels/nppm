@@ -18,10 +18,13 @@ import { OtherServices } from "./pages/OtherServices";
 import BlogPost from "./pages/blogpost";
 import Gallery from "./pages/gallery";
 import ServiceDetails from "./pages/service";
+import SchemaMarkup from "./SchemaMarkup";
+
 
 function App() {
   return (
     <Router basename="/nppm">
+      <SchemaMarkup />
       <div className="min-h-screen flex flex-col bg-background">
         {/* ✅ Mobile Optimized Navbar */}
         <Navbar />
