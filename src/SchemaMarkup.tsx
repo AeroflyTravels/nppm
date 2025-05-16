@@ -12,10 +12,10 @@ const SchemaMarkup = () => {
           "@type": "Organization",
           name: "Aerofly Travels"
         },
-        url: "https://aeroflytravels.com",
+        url: "https://aeroflytravels.github.io/nppm",
         sameAs: [
           "https://linkedin.com/in/rudrakshsharma",
-          "https://instagram.com/aeroflytravels",
+          "https://instagram.com/aeroflyytravels",
           "https://facebook.com/aeroflytravels"
         ]
       })
