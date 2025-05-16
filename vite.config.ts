@@ -3,19 +3,19 @@ import react from '@vitejs/plugin-react';
 import { copyFileSync } from 'fs';
 import { resolve } from 'path';
 
-// ✅ Custom plugin to copy sitemap.xml to /dist after build
-const copySitemap = () => {
+const copyStaticFiles = () => {
   return {
-    name: 'copy-sitemap',
+    name: 'copy-static-files',
     closeBundle() {
       copyFileSync(resolve(__dirname, 'sitemap.xml'), resolve(__dirname, 'dist/sitemap.xml'));
+      copyFileSync(resolve(__dirname, 'robots.txt'), resolve(__dirname, 'dist/robots.txt'));
     }
   };
 };
 
 export default defineConfig({
-  base: "/nppm/", // 🔥 Make sure this matches your GitHub repo name
-  plugins: [react(), copySitemap()],
+  base: "/nppm/",
+  plugins: [react(), copyStaticFiles()],
   build: {
     outDir: "dist",
   },
