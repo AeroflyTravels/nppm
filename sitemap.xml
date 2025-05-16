@@ -2,68 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://yourdomain.com/</loc>
+    <loc>https://aeroflytravels.github.io/nppm</loc>
     <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/about-us</loc>
+    <loc>https://aeroflytravels.github.io/nppm/about</loc>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/visa-services</loc>
+    <loc>https://aeroflytravels.github.io/nppm/visas</loc>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/blog</loc>
+    <loc>https://aeroflytravels.github.io/nppm/blog</loc>
     <priority>0.64</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/careers</loc>
+    <loc>https://aeroflytravels.github.io/nppm/careers</loc>
     <priority>0.64</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/contact-us</loc>
+    <loc>https://aeroflytravels.github.io/nppm/contact</loc>
     <priority>0.64</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/gallery</loc>
+    <loc>https://aeroflytravels.github.io/nppm/Gallery</loc>
     <priority>0.64</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/faq</loc>
+    <loc>https://aeroflytravels.github.io/nppm/faq</loc>
     <priority>0.64</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/other-services</loc>
+    <loc>https://aeroflytravels.github.io/nppm/other-services</loc>
     <priority>0.50</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/terms</loc>
+    <loc>http://aeroflytravels.github.io/nppm/terms</loc>
     <priority>0.50</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/tour-packages</loc>
+    <loc>https://aeroflytravels.github.io/nppm/packages</loc>
     <priority>0.50</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/privacy</loc>
+    <loc>https://aeroflytravels.github.io/nppm/privacy</loc>
     <priority>0.50</priority>
   </url>
 
-  <url>
-    <loc>https://yourdomain.com/services</loc>
-    <priority>0.50</priority>
-  </url>
+  
 
 </urlset>
