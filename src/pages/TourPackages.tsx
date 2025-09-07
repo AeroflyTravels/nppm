@@ -29,7 +29,7 @@ import rishikesh2 from "../assets/trips/rishikesh2.avif";
 import kantalimg  from "../assets/images/kantal trek.jpg";
 import kashmir from "../assets/images/kashmir tour.jpg";
 import business from "../assets/images/business.webp";
-import maldives from "../assets/trips/maldives.jpg";
+import maldives from "@/assets/trips/maldives.jpg";
 
 
 
